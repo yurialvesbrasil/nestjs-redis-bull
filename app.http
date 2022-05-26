@@ -1,0 +1,21 @@
+//Extensão rest client para fazer requisições http
+
+GET http://localhost:3000
+
+
+### Reset cache
+
+GET http://localhost:3000/reset
+
+
+### Cadastra Twitter
+
+POST http://localhost:3000/twitter
+Content-Type: application/json
+
+{
+  "text": "Tudo bem"
+}
+###
+
+GET http://localhost:3000/twitter
